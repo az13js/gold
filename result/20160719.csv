@@ -1,0 +1,12 @@
+20160719
+合约,开盘价,最高价,最低价,收盘价,涨跌(元),涨跌幅,加权平均价,成交量,成交金额,持仓量,交收方向,交收量
+Au9995&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;270.99,&nbsp;&nbsp;&nbsp;287.10,&nbsp;&nbsp;&nbsp;270.99,&nbsp;&nbsp;&nbsp;286.76,0.75,0.0026,&nbsp;&nbsp;&nbsp;286.63,"1,656.0","474,176,000.00",,,
+Au9999&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;286.00,&nbsp;&nbsp;&nbsp;288.44,&nbsp;&nbsp;&nbsp;286.00,&nbsp;&nbsp;&nbsp;287.02,0.73,0.0025,&nbsp;&nbsp;&nbsp;286.87,"21,611.54","6,081,355,791.00",,,
+Au100g,&nbsp;&nbsp;&nbsp;287.99,&nbsp;&nbsp;&nbsp;288.15,&nbsp;&nbsp;&nbsp;286.70,&nbsp;&nbsp;&nbsp;287.12,0.61,0.0021,&nbsp;&nbsp;&nbsp;287.21,48.0,"13,786,320.00",,,
+iAu9999&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;286.80,&nbsp;&nbsp;&nbsp;288.05,&nbsp;&nbsp;&nbsp;286.50,&nbsp;&nbsp;&nbsp;287.07,-0.60,-0.0021,&nbsp;&nbsp;&nbsp;287.07,0.48,"137,797.00",,,
+Au(T+D),&nbsp;&nbsp;&nbsp;286.01,&nbsp;&nbsp;&nbsp;288.29,&nbsp;&nbsp;&nbsp;285.90,&nbsp;&nbsp;&nbsp;286.79,0.47,0.0016,&nbsp;&nbsp;&nbsp;286.89,"46,596.0","13,368,003,340.00","194,658.0",多支付空,"9,150.0"
+Au(T+N1),&nbsp;&nbsp;&nbsp;290.50,&nbsp;&nbsp;&nbsp;290.50,&nbsp;&nbsp;&nbsp;288.85,&nbsp;&nbsp;&nbsp;289.85,0.50,0.0017,&nbsp;&nbsp;&nbsp;289.85,"8,005.4","2,320,365,150.00","34,164.0",多支付空,338.0
+Au(T+N2),&nbsp;&nbsp;&nbsp;286.45,&nbsp;&nbsp;&nbsp;290.00,&nbsp;&nbsp;&nbsp;286.45,&nbsp;&nbsp;&nbsp;288.50,0.45,0.0016,&nbsp;&nbsp;&nbsp;288.50,"8,005.4","2,309,558,790.00","189,702.0",,
+mAu(T+D),&nbsp;&nbsp;&nbsp;286.11,&nbsp;&nbsp;&nbsp;288.43,&nbsp;&nbsp;&nbsp;286.00,&nbsp;&nbsp;&nbsp;286.89,0.46,0.0016,&nbsp;&nbsp;&nbsp;286.97,"6,221.8","1,785,505,988.00","299,560.0",多支付空,"26,982.0"
+Pt9995&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;249.50,&nbsp;&nbsp;&nbsp;249.50,&nbsp;&nbsp;&nbsp;248.75,&nbsp;&nbsp;&nbsp;249.42,0.67,0.0027,&nbsp;&nbsp;&nbsp;249.16,142.0,"35,382,000.00",,,
+Ag(T+D),&nbsp;&nbsp;4278.00,&nbsp;&nbsp;4328.00,&nbsp;&nbsp;4273.00,&nbsp;&nbsp;4305.00,-31.00,-0.0071,&nbsp;&nbsp;4302.00,"4,287,884.0","18,446,587,428.00","5,383,250.0",多支付空,"5,940.0"
