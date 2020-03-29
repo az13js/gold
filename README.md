@@ -11,3 +11,6 @@
 3. 执行`php details.php`，下载价格信息，保存到`details`目录，目录不存在会自动建立。
 4. 执行`php clear.php`，清理数据。清理后页面位于`clear`下，不存在目录会自动建立。
 5. 执行`php csv.php`，提取价格。生成文件夹`result`。
+6. 执行`php summary.php`，从`result`内提取数据，保存到文件`summary.csv`。
+
+`summary.php`目前提取了日期、开盘价和收盘价，修改一下可以提取其它的价格。
