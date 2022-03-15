@@ -1,16 +1,20 @@
-# 黄金价格爬取工具
+# 上海黄金交易所爬虫
 
-这个工具爬取的是每天的价格，不是实时的。来源于上海黄金交易所。
+- 作用：获取所有历史的、每一天公布的详情。
+- 安装： `pip install -r requirements.txt` 。
+- 运行： `scrapy crawl items -o items.jl` 。或者 `scrapy crawl items -o items.jl -a max_page=2` 只获取前面的2页也可以。
+- 按顺序运行： `python tools/items.py` 和 `python tools/sort.py` 。
+- 执行 `scrapy crawl details -o files.jl` 获取详情页面，支持指定 `-a max_deep=10` 获取发布日期最近的10个详情页面。
+- 最后，如果需要的可以用 `python tools/get_table.py` 脚本提取数据。
 
-## 使用方法
+备注：
 
-*仓库已经存在的数据使用这些步骤会导致文件里的数据被覆盖或被添加。*
+1. 如果安装时遇到下载依赖包失败的情况，可以尝试更换国内的源。例如清华大学，或阿里云的源： `pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com` 。
+2. `python` 的版本理论上可以是 `3.6` 到 `3.10` 。我本地是 `3.6` 和 `3.9` ，别的版本没有试过。
 
-1. 执行`php page.php`，爬分页数据到当前目录下的`page`目录。如果`page`不存在会自动建立。
-2. 执行`php link.php>links.txt`，解析页面中的链接，并保存为`links.txt`。
-3. 执行`php details.php`，下载价格信息，保存到`details`目录，目录不存在会自动建立。
-4. 执行`php clear.php`，清理数据。清理后页面位于`clear`下，不存在目录会自动建立。
-5. 执行`php csv.php`，提取价格。生成文件夹`result`。
-6. 执行`php summary.php`，从`result`内提取数据，保存到文件`summary.csv`。
+对于每天增量更新数据，可以：
 
-`summary.php`目前提取了日期、开盘价和收盘价，修改一下可以提取其它的价格。
+    scrapy crawl items -o items.jl -a max_page=1
+    python tools/items.py
+    python tools/sort.py
+    scrapy crawl details -o files.jl
