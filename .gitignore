@@ -1,4 +1,7 @@
 *.tar.gz
 clear
-details
 page
+__pycache__
+*.log
+*.jl
+
